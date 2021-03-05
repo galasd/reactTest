@@ -2,7 +2,8 @@
   "name": "projectName",
   "version": "0.0.0",
   "description": "Blank Project for React.js",
-  "main": "index.js",
+  "main": "src/index.jsx",
+  "homepage": "./",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
