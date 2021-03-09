@@ -1,7 +1,14 @@
-var React = require('react');
-var App = require('./components/App.jsx');
+import React from "react";
+import ReactDOM from "react-dom";
+import Signup from "./components/Signup";
 
-React.render(
-    <App />,
-    document.getElementById('example')
-);
+function App() {
+    return (
+        <div className="App">
+            <Signup/>
+        </div>
+    );
+}
+
+const rootElement = document.getElementById("root");
+ReactDOM.render(<App/>, rootElement);
