@@ -1,12 +1,14 @@
 import React from "react";
 import ReactDOM from "react-dom";
+import Signup from "./components/Signup";
 import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
+import "./index.css";
 import './App.css';
 
 function App() {
     return (
         <div className="App">
-            <h3>Create & Login UI Template in React</h3>
+            <Signup/>
         </div>
     );
 }
