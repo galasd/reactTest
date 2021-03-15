@@ -78,6 +78,15 @@ body, html, .App, #root, .outer {
     margin-top: 3px;
 }
 
+.passwordStrength {
+    font-size: 15px;
+    margin-bottom: 0;
+}
+
+.text-danger {
+    font-size: 15px;
+}
+
 .forgot-password,
 .forgot-password a {
     color: #7f7d7d;
