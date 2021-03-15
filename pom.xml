@@ -25,11 +25,11 @@
                             <goal>copy-resources</goal>
                         </goals>
                         <configuration>
-                            <outputDirectory>${project.basedir}/src/main/webapp</outputDirectory>
+                            <outputDirectory>${project.basedir}/frontend/src/main/webapp</outputDirectory>
                             <overwrite>true</overwrite>
                             <resources>
                                 <resource>
-                                    <directory>${project.basedir}/app/build</directory>
+                                    <directory>${project.basedir}/frontend/app/build</directory>
                                     <includes>
                                         <include>static/</include>
                                         <include>index.html</include>
